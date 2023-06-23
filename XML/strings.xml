@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Restaurante</string>
+    <string-array name="opciones_spinner">
+        <item>SELECCIONA UNA OPCIÓN</item>
+        <item>Gestionar todas las reservas</item>
+        <item>Gestionar reservas por día</item>
+    </string-array>
+</resources>

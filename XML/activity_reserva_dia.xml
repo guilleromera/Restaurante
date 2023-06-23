@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reservas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReservasDia">
+
+    <TextView
+        android:id="@+id/textViewReservas"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="467dp">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/botoncito"
+        android:layout_width="453dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:text="Volver al menú"
+        android:textSize="20sp" />
+
+</LinearLayout>
